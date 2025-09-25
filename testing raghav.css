@@ -47,6 +47,9 @@ body{
 }
 img{
     image-rendering:optimizeQuality;
-    border-image:url(crunched\ paper.jpeg);
-    float:right;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: scale-down;
+    float:inline-end;
+    cursor:grab;
 }
