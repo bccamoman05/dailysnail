@@ -26,16 +26,6 @@ menu{
   text-decoration: none;
   font-size: 17px;
 }
-
-input[type=text] {
-  width: 100%;
-  padding: 12px;
-  margin: 10px 0;
-  box-sizing: border-box;
-  border: 2px solid red;
-  border-radius: 50px;
-}
-
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
@@ -48,6 +38,45 @@ input[type=text] {
   color: white;
 }
 
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 8px;
+}
+input[type=button] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active {
+  background-color: #04AA6D;
+  color: white;
+}
+button {
+  background-color: lightblue;
+  color: rgb(29, 42, 42);
+  padding: 14px 40px;
+  font-size:18px;
+  border-radius:8px;
+  box-shadow: 0 9px #999;
+}
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 /* back to stuff im making */
 body {
     background-image:url(crunched\ paper.jpeg);
