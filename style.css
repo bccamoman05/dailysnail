@@ -23,7 +23,7 @@ menu{
 }
 .image-right-container {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: right;
   width: 30%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -44,7 +44,7 @@ menu{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .footer-date {
-  margin-top:50px;
+  margin-top:30px;
   font-family:cursive;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -133,9 +133,9 @@ button:active {
 /* back to stuff im making */
 body {
     background-image:url(crunched\ paper.jpeg);
-    background-size:1920x 1080px;
+    background-size:1920px 1080px;
     background-repeat:repeat;
-    padding-bottom:300px;
+    padding-bottom:30px;
 }
 marquee {
     font-size:xx-large;
