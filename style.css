@@ -39,8 +39,8 @@ menu{
 .header-img {
   display: inline-block;
   vertical-align: middle;
-  width: 35px;
-  height: 35px;
+  width: 50%;
+  height: 50%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .footer-date {
@@ -135,6 +135,7 @@ body {
     background-image:url(crunched\ paper.jpeg);
     background-size:1920x 1080px;
     background-repeat:repeat;
+    padding-bottom:300px;
 }
 marquee {
     font-size:xx-large;
@@ -187,4 +188,8 @@ img{
     max-height: 200px;
     object-fit: scale-down;
     float:inline-end;
+}
+footer{
+  position: fixed;
+  bottom:0;
 }
