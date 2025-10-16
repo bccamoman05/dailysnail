@@ -12,13 +12,23 @@
     THE DAILY SNAIL
 </h1>
 <p>NOTE: DOESNT WORK RIGHT NOW</p>
-<form action="#" method="post">
-    <label for="uname">Username</label>
-    <input type="text" id="uname" name="uname">    
-    <label for="subject">Subject</label>
-    <input type="text" id="subject" name="subject">
-    <label type="button">Save</button>
-    <input type="submit" value="submit">
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xrbyrdkv"
+  method="POST"
+>
+  <label>
+    Your username:
+    <input type="username" name="username" required>
+  </label>
+  <br><br>
+  <label>
+    Your message:
+    <textarea name="message" required></textarea>
+  </label>
+  <br><br>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
 <footer>
   <p2>Copyright © 2025 The Daily Snail || </p2>
