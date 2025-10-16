@@ -22,8 +22,8 @@ menu{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .image-right-container {
-  display:inline-block;
-  vertical-align: right;
+  display:block;
+  float:right;
   width: 30%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -192,7 +192,7 @@ img{
 footer{
   position: fixed;
   bottom:0;
-  border-top: 2px solid #f2f2f2;
+  border-top: -2px solid #f2f2f2;
 }
 a{
   color: #000000;
