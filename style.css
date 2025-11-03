@@ -201,3 +201,13 @@ a{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-decoration: none;
 }
+textarea{
+  border: rgb(169, 22, 22) 2px solid;
+  border-radius: 9px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 50px;
+  width: 500px;
+}
+form{
+  text-align:center;
+}
